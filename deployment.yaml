@@ -6,7 +6,7 @@ metadata:
   name: gitops-nginx
   namespace: default
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: gitops-nginx
